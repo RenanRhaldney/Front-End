@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>    
+
+    <form method="POST" action="#" id="cadastro">
+        Nome Completo: <input type="text" name="nome" size="79" placeholder="Digite seu nome completo aqui "><p>
+        Endereço: <input type="text" name="endereco" size=86" placeholder="Rua, Avenida, Etc "><p>
+        Bairro: <input type="text" name="bairro" size="30" placeholder="Digite seu bairro aqui">
+        Cidade: <input type="text" name="cidade" size="30" placeholder="Digite sua cidade aqui">
+        Estado: <select name="estado">
+            <option value="---">---</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="PE">PE</option>
+        </select><p>
+        Qual é o seu salario?<p>
+            <input type="radio" value="R$ 1.212,00" name="site">
+            Um salario minimo
+            
+            <input type="radio" value="+R$ 1.212,00" name="site">
+            Mais de um salario minimo <p>
+
+            Qual destes softwares você conhece?<p>
+            <input type="checkbox" value="Vscode"> VSCode
+            <input type="checkbox" value="Eclipse"> Eclipse
+            <input type="checkbox" value="Pycharm"> Pycharm
+            
+            Realize o anexo do seu curriculo: <p>
+            <input type="file" name=""><p></p>
+
+            Data de nascimento:
+            <input type="date" name="Date de Nascimento"><p>
+
+            Digite aqui sua observação: <br>
+            <textarea cols="89" rows="10">
+                Digite seu comentario aqui
+            </textarea>
+            <br>    
+            <input type="submit" value="Enviar" name="enviar">
+            <input type="reset" value="Limpar" name="limpar">
+
+    </form>
+</body>
+</html>
