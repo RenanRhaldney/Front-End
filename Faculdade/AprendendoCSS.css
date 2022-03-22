@@ -1,0 +1,50 @@
+h1{
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+p{
+    background: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.c1{
+    background: rgb(238, 21, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    color: green
+}
+.c2{
+    background: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.c3{
+    background: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a:link{
+    font-size: xx-large;
+    color: red;
+}
+
+p a:link{
+    font-size: medium;
+    color: orange;
+}
+
+a.c1:link{
+    font-size: medium;
+    color: brown;
+}
+a.c2:link{
+    font-size: medium;
+    color: brown;
+}
+
+a:hover{
+    font-size: xx-large;
+    color: silver;
+}
+
